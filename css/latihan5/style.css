@@ -1,1 +1,41 @@
+/* body ini masuk kedalam type tag elemen HTML */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+/* bisa menggunakan ,(koma) untuk menggabungkan atau seperti groubing */
+h1, h2{
+    color: brown;
+}
+
+/* tidak bisa menuliskan cuman ul gitu aja */
+/* harus menuliskan dengan menggunakan spasi seperti contoh dibawah */
+/* spasi sendiri biasanya disebut "didalam" */
+/* dan untuk code dibawah membacanya dari kanan ke kiri */
+/* contoh : css tolong pilihkan teks "a" yang ada didalam "li" yang ada di dalam "ul" */
+ul li a{
+    color: rgb(12, 182, 83);
+}
+
+/* ini juga sama */
+/* cara membacanya "css tolong pilihkan teks "a" yang ada didalam "li" yang ada dialam "ol" */
+ol li a{
+    color: blueviolet;
+}
+
+/* untuk selector "id" (ini ada didalam html) awalan menggunakan "#" */
+/* contoh menggunakan selector "id" */
+/* sebuah elemen HTML hanya boleh memiliki 1 "id"*/
+/* hanya boleh memiliki 1 elemen dengan id itu */
+/* contoh: sudah ada p1, jadi tidak boleh ada p1 lagi */
+/* biasanya digunakan untuk javascript */
+/* lebih baik menggunakan "class" daripada "id" */
+#p1 {
+    color: rgb(89, 57, 201);
+}
+
+/* jika untuk selector "class" (ini juga didalam html) awalan menggunakn "." (titik) */
+/* contoh menggunakan selector "class" */
+.p2{
+    color: rgb(130, 156, 16);
+}
