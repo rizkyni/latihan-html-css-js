@@ -1,1 +1,10 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+}
 
+/* inherit ini bertujuan agar link pada tag <a> juga berubah warna */
+/* kalo tidak menggunakan inherit maka link <a> tidak akan berubah warnanya */
+a {
+    color: inherit;
+}
